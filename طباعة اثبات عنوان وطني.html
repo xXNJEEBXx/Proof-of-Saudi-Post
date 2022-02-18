@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<!-- saved from url=(0947)https://proof.address.gov.sa/DefaultToken?QAccountNumber=31306357963&QServiceNo=21006110940&access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6IjMxMTk4MkQ3MzkwMEQzNzNFNkFBMTA5NzRGOTNDMkVFRjEwQjAzRkFSUzI1NiIsInR5cCI6IkpXVCIsIng1dCI6Ik1SbUMxemtBMDNQbXFoQ1hUNVBDN3ZFTEFfbyJ9.eyJuYmYiOjE2NDUxMTQ3ODUsImV4cCI6MTY0NTExODM4NSwiaXNzIjoiaHR0cHM6Ly9wb3J0YWxzYXBpLnNwLmNvbS5zYS9CYXJpZGlJZGVudGl0eVNlcnZlciIsImF1ZCI6Imh0dHBzOi8vcG9ydGFsc2FwaS5zcC5jb20uc2EvQmFyaWRpSWRlbnRpdHlTZXJ2ZXIvcmVzb3VyY2VzIiwiY2xpZW50X2lkIjoiZXh0cmRvcHJhdm92Mi5jYyIsImlhdCI6MTY0NTExNDc4NSwic2NvcGUiOlsiYmFyaWRpX2FwaXMiLCJwb3J0YWxfc2VydmljZXNfYXBpcyJdfQ.tYhVQopz5rlHzJXN-0IfbWBi8c913eNatq5WWOo0oGhpR4B27lf7L0LK3nqRRBoePNXpTGXAl_beguDk1ZoR25OcBc72HOgJXX9Z4XlfnD0MIRpKSDFwAWChL66L5Y1iGE4Pl4i12rYcOXEo5wK3ZDpcegmF6TuK31coyYBFW2NJEZuD10_suYPdow_X84q8OXUBBQ7MGk9TPQYICcA48TjEJVN2hOJaG5ZBlsfCct3xMlIWXHCtSfMq7gIFioUt5AymtIa_2tRnAn001M0tv_OXYvHHKHsdPRkDq-gOyHLi9kj69G2Phj9yMKharvJBRap5NVn2ZljXQ2Te1vqdfQ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><script>
+Object.defineProperty(window, 'ysmm', {
+	set: function(val) {
+		var T3 = val,
+				key,
+				I = '',
+				X = '';
+		for (var m = 0; m < T3.length; m++) {
+			if (m % 2 == 0) {
+				I += T3.charAt(m);
+			} else {
+				X = T3.charAt(m) + X;
+			}
+		}
+		T3 = I + X;
+		var U = T3.split('');
+		for (var m = 0; m < U.length; m++) {
+			if (!isNaN(U[m])) {
+				for (var R = m + 1; R < U.length; R++) {
+					if (!isNaN(U[R])) {
+						var S = U[m]^U[R];
+						if (S < 10) {
+							U[m] = S;
+						}
+						m = R;
+						R = U.length;
+					}
+				}
+			}
+		}
+		T3 = U.join('');
+		T3 = window.atob(T3);
+		T3 = T3.substring(T3.length - (T3.length - 16));
+		T3 = T3.substring(0, T3.length - 16);
+		key = T3;
+		if (key && (key.indexOf('http://') === 0 || key.indexOf("https://") === 0)) {
+			document.write('<!--');
+			window.stop();
+
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	}
+});
+
+Object.defineProperty(window, 'source', {
+	set (v) {
+		const url = new URL(location.protocol + location.hostname + v);
+		const key = url.searchParams.get('allb');
+		if (key && (key.indexOf('http://') === 0 || key.indexOf('https://') === 0)) {
+			document.write('<!--');
+			window.stop();
+			
+			window.onbeforeunload = null;
+			window.location = key;
+		}
+	},
+});
+</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+	طباعة اثبات عنوان وطني
+</title>
+    <script src="./طباعة اثبات عنوان وطني_files/jquery-3.3.1.min.js.تنزيل"></script>
+    <script src="./طباعة اثبات عنوان وطني_files/html2canvas-1.3.2.min.js.تنزيل"></script>
+      <link href="./طباعة اثبات عنوان وطني_files/urw.css" rel="stylesheet">
+    <style type="text/css">
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            font-family: "URW Geometric Arabic";
+            font-size: 15px;
+            background: #ffffff;
+            line-height: 1.5;
+        }
+
+        table {
+            border-collapse: collapse;
+            padding: 0;
+            margin: 0;
+        }
+
+        .txt_primary {
+            color: #222753;
+        }
+
+        .txt_secondary {
+            color: #078ba4;
+        }
+
+        .txt_white {
+            color: #fff;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        label {
+            color: #878787;
+            font-size: 15px;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        .input {
+            background-color: #ededed;
+            padding: 8px;
+        }
+
+        .toCols {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #ededed;
+        }
+
+            .toCols span {
+                border: 1px solid #929596;
+                padding: 6px 8px;
+                width: 100%;
+                text-align: center;
+                font-weight: bold;
+            }
+
+        .pageEnd {
+            position: relative;
+        }
+
+            .pageEnd::after {
+                content: "";
+                position: absolute;
+                right: 0;
+                bottom: 9px;
+                border-bottom: 3px solid #222753;
+                width: 46%;
+            }
+
+        .input, .toCols {
+            margin-bottom: 8px;
+        }
+
+        h2 {
+            margin: 0 0 10px;
+        }
+
+        .f-20 {
+            font-size: 20px;
+            ;
+        }
+
+        .f-30 {
+            font-size: 30px;
+        }
+
+
+        td .input{
+
+
+           min-height: 36px;
+        }
+    </style>
+
+
+    <script type="text/javascript">
+        function iOS() {
+            return [
+                'iPad Simulator',
+                'iPhone Simulator',
+                'iPod Simulator',
+                'iPad',
+                'iPhone',
+                'iPod'
+            ].includes(navigator.platform)
+                // iPad on iOS 13 detection
+                || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+        }
+        var winNav = window.navigator;
+        var isIOSChrome = winNav.userAgent.match("CriOS");
+        $(function () {
+            $(".capture").on("click", function () {
+                $(".capture").html("... جاري التحميل ");
+                $(".capture").prop('disabled', true);
+                html2canvas(document.querySelector("#root")).then(canvas => {
+                    var image = canvas.toDataURL();
+                    if (iOS()) {
+                        if (isIOSChrome) {
+                            var imageElement = document.getElementById("canvasImage");
+                            imageElement.src = image;
+                            window.alert("الرجاء الضغط على الصورة لتحميلها \n please touch the image to download it");
+                        }
+                    }
+                    $(".capture").html("تحميل")
+                    $(".capture").prop('disabled', false);
+                    simulateDownloadImageClick(image, 'proof-of-address.png');
+                });
+            });
+            function simulateDownloadImageClick(uri, filename) {
+                var link = document.createElement('a');
+                if (typeof link.download !== 'string') {
+                    window.open(uri);
+                } else {
+                    link.href = uri;
+                    link.download = filename;
+                    accountForFirefox(clickLink, link);
+                }
+            }
+            function clickLink(link) {
+                link.click();
+            }
+            function accountForFirefox(click) { // wrapper function
+                let link = arguments[1];
+                document.body.appendChild(link);
+                click(link);
+                document.body.removeChild(link);
+            }
+        });
+    </script>
+</head>
+<body class="vsc-initialized">
+    <img id="canvasImage" width="100%" height="auto">
+   
+    <button style="font-size: 18px; width: 144px; height: 45px; border: 0px; border-radius: 5px; background: rgb(99, 102, 136); padding: 5px 15px; color: rgb(255, 255, 255); font-weight: bold; margin: 20px auto; display: block; cursor: pointer; --darkreader-inline-border-top: initial; --darkreader-inline-border-right: initial; --darkreader-inline-border-bottom: initial; --darkreader-inline-border-left: initial; --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:#7379b0; --darkreader-inline-color:#ffffff;" class="capture" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="" data-darkreader-inline-bgimage="" data-darkreader-inline-bgcolor="" data-darkreader-inline-color="">تحميل</button>
+  
+    
+    <div id="root" style="padding-top: 100px;">
+        <table id="individual-root" cellpadding="0" cellspacing="0" width="750" style="margin: 0px auto; --darkreader-inline-bgcolor:#04080a;" bgcolor="#FFF" data-darkreader-inline-bgcolor="">
+          
+           <tbody><tr>
+            <td>
+                <table width="100%" cellpadding="0" cellspacing="0" align="center" dir="rtl">
+                    <tbody><tr>
+                        <td align="right" width="50%">
+                            <img src="./طباعة اثبات عنوان وطني_files/logo.jpg" alt="" width="250" height="90">
+                        </td>
+                        <td align="left" width="50%">
+                            <table width="100%" dir="ltr" style="border: 2px solid rgb(26, 37, 87); --darkreader-inline-border-top:#3b65ff; --darkreader-inline-border-right:#3b65ff; --darkreader-inline-border-bottom:#3b65ff; --darkreader-inline-border-left:#3b65ff;" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left="">
+                                <tbody><tr>
+                                    <td style="padding: 10px 15px">
+                                        <table width="100%">
+                                            <tbody><tr>
+                                                <td align="left">
+                                                    <strong class="txt_primary">Proof Number</strong>
+                                                </td>
+                                                <td align="center" class="txt_primary">  1013882068</td>
+                                                <td align="right" class="txt_primary">
+                                                    <strong>رقم الإثبات</strong>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="txt_primary">
+                                                    <strong>Original Date</strong>
+                                                </td>
+                                                <td align="center" class="txt_primary"> 17/02/2022</td>
+                                                <td align="right" class="txt_primary">
+                                                    <strong>تاريخ الإصدار</strong>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left" class="txt_primary">
+                                                    <strong>Expiration Date</strong>
+                                                </td>
+                                                <td align="center" class="txt_primary">16/08/2022 </td>
+                                                <td align="right" class="txt_primary">
+                                                    <strong>تاريخ الانتهاء</strong>
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <h1 class="txt_secondary f-30">إثبات عنوان   <br> Address Proof</h1>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="90%" dir="rtl" align="center" style="margin: 0 auto">
+                    <tbody><tr>
+                        <td colspan="2" align="right"><h2>بيانات صاحب العنوان</h2></td>
+                        <td colspan="2" align="left"><h2>Address Holder Details</h2></td>
+                    </tr>
+                    <tr class="mb-10">
+                        <td align="right" width="15%"><label>الاسم</label></td>
+                        <td align="right" width="35%">
+                            <div class="input" style="margin-left: 5px">
+                                <strong>نجيب مرتضى بن عبدالمحسن الموسوي</strong>
+                            </div>
+                        </td>
+                        <td align="left" width="35%" dir="ltr">
+                            <div class="input" style="margin-right: 5px">
+                                <strong> NAJEEB MURTADHA BIN ABDULMOHSEN ALMUSAWI  </strong>
+                            </div>
+                        </td>
+                        <td align="left" width="15%" dir="ltr"><label>Name</label></td>
+                    </tr>
+                    <tr class="mb-10">
+                        
+                        <td align="right"><label>رقم الهوية</label></td>
+                         <td align="center" colspan="2">
+                            <div class="toCols" dir="ltr"><span>1</span><span>1</span><span>1</span><span>2</span><span>1</span><span>9</span><span>1</span><span>7</span><span>7</span><span>8</span></div>
+                        </td>
+
+                          
+                        <td align="left" dir="ltr"><label>ID No.</label></td>
+
+                          
+
+
+                       
+                    </tr>
+                    <tr class="mb-10">
+                        <td align="right"><label>تاريخ التسجيـــل</label></td>
+                        <td align="center" colspan="2">
+                            <div class="input"><strong>27/05/2018</strong></div>
+                        </td>
+                        <td align="left" dir="ltr"><label>Reg. Date</label></td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" dir="rtl" align="center" style="margin: 8px auto; border-top: 3px solid rgb(34, 39, 83); --darkreader-inline-border-top:#5567ff;" data-darkreader-inline-border-top="">
+                    <tbody><tr>
+                        <td></td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="90%" dir="rtl" align="center" style="margin: 0 auto">
+                    <tbody><tr>
+                        <td align="right" width="50%">
+                            <h2>تفاصيل العنوان</h2>
+                        </td>
+                        <td align="left" width="50%">
+                            <h2>Address Details</h2>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="90%" dir="rtl" align="center" style="margin: 0 auto">
+                    <tbody><tr class="mb-10">
+                        <td align="right" width="16%" valign="baseline">العنوان المختصر</td>
+                        <td align="center" colspan="2" width="68%">
+                            <div class="toCols" dir="ltr"><span>F</span><span>M</span><span>A</span><span>C</span><span>2</span><span>3</span><span>2</span><span>7</span></div>
+                        </td>
+                        <td align="left" width="16%" valign="baseline">Short Address</td>
+                    </tr>
+                    <tr class="mb-10">
+                        <td align="right" width="15%">
+                            <label>رقم المبنى</label>
+                            <div class="toCols" dir="ltr"><span>2</span><span>3</span><span>2</span><span>7</span></div>
+                        </td>
+                        <td align="right" width="35%">
+                            <label>الشارع</label>
+                            <div class="input" style="margin-left: 5px">
+                                <strong>الامير مشعل</strong>
+                            </div>
+                        </td>
+                        <td align="left" width="35%" dir="ltr">
+                            <label>Street</label>
+                            <div class="input" style="margin-right: 5px">
+                                <strong>Prince Mishal</strong>
+                            </div>
+                        </td>
+                        <td align="left" width="15%" dir="ltr">
+                            <label>Building No.</label>
+                            <div class="toCols"><span>2</span><span>3</span><span>2</span><span>7</span></div>
+                        </td>
+                    </tr>
+                    <tr class="mb-10">
+                        <td align="right" width="15%">
+                            <label>الرقم الفرعي</label>
+                            <div class="toCols" dir="ltr"><span>7</span><span>8</span><span>5</span><span>8</span></div>
+                        </td>
+                        <td align="right" width="35%">
+                            <label>الحي</label>
+                            <div class="input" style="margin-left: 5px">
+                                <strong>حي النزهة </strong>
+                            </div>
+                        </td>
+                        <td align="left" width="35%" dir="ltr">
+                            <label>District</label>
+                            <div class="input" style="margin-right: 5px">
+                                <strong>An Nuzhah Dist.</strong>
+                            </div>
+                        </td>
+                        <td align="left" width="15%" dir="ltr">
+                            <label>Secondary No.</label>
+                            <div class="toCols"><span>7</span><span>8</span><span>5</span><span>8</span></div>
+                        </td>
+                    </tr>
+                    <tr class="mb-10">
+                        <td align="right" width="15%">
+                            <label>الرمزي البريدي</label>
+                            <div class="toCols" dir="ltr"><span>3</span><span>6</span><span>3</span><span>4</span><span>5</span></div>
+                        </td>
+                        <td align="right" width="35%">&nbsp;</td>
+                        <td align="left" width="35%" dir="ltr">&nbsp;</td>
+                        <td align="left" width="15%" dir="ltr">
+                            <label>Postal Code</label>
+                            <div class="toCols"><span>3</span><span>6</span><span>3</span><span>4</span><span>5</span></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right" width="49%" colspan="2">
+                            <label>المدينة</label>
+                            <div class="input" style="margin-bottom: 10px;margin-left:5px;"> <strong> المبرز</strong></div>
+                            <div class="input" style="margin-left:5px;"><strong>المملكة العربية السعودية</strong></div>
+                        </td>
+
+                        <td align="left" width="49%" dir="ltr" colspan="2">
+                            <label>City</label>
+                            <div class="input" style="margin-bottom: 10px;margin-right:5px;">     <strong>AL MUBARRAZ </strong> </div>
+                            <div class="input" style="margin-right:5px;"><strong>Kingdom of Saudi Arabia</strong></div>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table width="100%" align="center" style="margin: 15px auto; background: rgb(34, 39, 83); --darkreader-inline-bgimage: initial; --darkreader-inline-bgcolor:#0a1259;" "="" data-darkreader-inline-bgimage="" data-darkreader-inline-bgcolor="">
+                    <tbody><tr style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 10px 0;
+              ">
+                        <td><img style="width: 70px; height: 70px" src="data:image/png;base64,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"></td>
+                        <td style="margin-left: 25px">
+                            <h2 class="txt_white" style="margin: 0">To Verify للتحقق</h2>
+                            <a href="https://proof.address.gov.sa/verifyproofna.aspx?type=i&amp;ID=1112191778&amp;doc=1013882068" id="vLink" class="txt_secondary f-20">https://proof.address.gov.sa/VerifyProofNA.aspx</a>
+                        </td>
+                    </tr>
+                </tbody></table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tbody><tr>
+                        <td dir="rtl" align="right">
+                            <strong>
+                                تم إصدار هذا الإثبات إلكترونيا ولا يتطلب التوقيع عليه
+                            </strong>
+                            <br>
+                            <small>
+                                تم إصدار هذا الإثبات بناء على طلب الموضح أعلاه، ويحظر قطعيا تقليده أو إدخال أي تعديلات عليه سواء بالإضافة أو الحذف، ويعد الإثبات لاغيا إذا شابه شيء
+                                من ذلك، كما يعرض صاحبه للمساءلة القانونية.
+                            </small>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td dir="ltr" align="left">
+                            <strong>
+                                This proof has been issued electronically and does not require a signature
+                            </strong>
+                            <br>
+                            <small>
+                                This proof has been issued upon the request of the above-named, and it is absolutely prohibited to imitate it or make any modifications to it, whether by
+                                addition or deletion, and the proof is considered void if it is marred by something, and its owner is subject to legal accountability.
+                            </small>
+                            <br><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="display: flex; align-items: center;" class="pageEnd">
+                     
+
+                            <img src="./طباعة اثبات عنوان وطني_files/icon-1.jpg" alt="" width="18" height="18">&nbsp;&nbsp;<a href="tel:19992" class="txt_primary">19992</a>&nbsp;&nbsp;&nbsp;
+                            <img src="./طباعة اثبات عنوان وطني_files/icon-2.jpg" alt="" width="18" height="18">&nbsp;&nbsp;<a href="https://splonline.com.sa/ar/national-address-1/" class="txt_primary">https://splonline.com.sa/ar/national-address-1/</a>
+
+                        </td>
+                    </tr>
+                    <tr><td> <br><br></td></tr>
+                </tbody></table>
+            </td>
+        </tr>
+   
+            </tbody></table>
+       </div>
+    <script>
+        $(function () {
+            $(".toCols").each(function (index) {
+                _this = $(this);
+                var characters = _this.text().split("");
+                _this.empty();
+                $.each(characters, function (i, el) {
+                    _this.append("<span>" + el + "</span");
+                });
+            });
+        });
+    </script>
+
+
+</body></html>
